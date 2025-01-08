@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:orientation="vertical"
+    tools:context=".activities.AddNewProductActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_menu" />
+
+        <include layout="@layout/logo_layout" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_product" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/styleTV"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Add New Product" />
+
+    <include layout="@layout/add_product_layout"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            style="@style/styleTV"
+            android:text="Product name"
+            />
+        <com.google.android.material.card.MaterialCardView
+            style="@style/styleCardViewET"
+            android:layout_marginTop="5dp">
+            <EditText
+                style="@style/styleETV"
+                android:hint="Enter Product Name"
+                android:layout_gravity="center_vertical"/>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/styleTV"
+            android:text="Price"
+            android:layout_marginTop="10dp"/>
+        <com.google.android.material.card.MaterialCardView
+            style="@style/styleCardViewET"
+            android:layout_marginTop="5dp">
+            <EditText
+                style="@style/styleETV"
+                android:hint="Enter Product Price"
+                android:inputType="number"
+                android:layout_gravity="center_vertical"/>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            style="@style/styleTV"
+            android:text="Description"
+            android:layout_marginTop="10dp"/>
+        <com.google.android.material.card.MaterialCardView
+            style="@style/styleCardViewET"
+            android:layout_height="95dp"
+            android:layout_marginTop="5dp">
+            <EditText
+                style="@style/styleETV"
+                android:hint="Enter Product Description"
+                android:layout_marginTop="5dp"/>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            style="@style/styleCardViewBtn"
+            android:layout_marginTop="50dp">
+            <TextView
+                style="@style/styleBtnTV"
+                android:text="Add"
+                android:layout_gravity="center"/>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+</LinearLayout>
