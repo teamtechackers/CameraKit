@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.google.android.material.card.MaterialCardView style="@style/styleCardViewCategory">
+
+        <LinearLayout style="@style/styleCategoryLayout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_camera" />
+
+            <TextView
+                style="@style/styleCategoryTV"
+                android:text="Camera" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <Space style="@style/PreviewSpacer" />
+
+    <com.google.android.material.card.MaterialCardView style="@style/styleCardViewCategory">
+
+        <LinearLayout style="@style/styleCategoryLayout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_lense" />
+
+            <TextView
+                style="@style/styleCategoryTV"
+                android:text="Lens" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <Space style="@style/PreviewSpacer" />
+
+    <com.google.android.material.card.MaterialCardView style="@style/styleCardViewCategory">
+
+        <LinearLayout style="@style/styleCategoryLayout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_tripod" />
+
+            <TextView
+                style="@style/styleCategoryTV"
+                android:text="Tripod" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <Space style="@style/PreviewSpacer" />
+
+    <com.google.android.material.card.MaterialCardView style="@style/styleCardViewCategory">
+
+        <LinearLayout style="@style/styleCategoryLayout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_accessries" />
+
+            <TextView
+                style="@style/styleCategoryTV"
+                android:text="Accessories" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
