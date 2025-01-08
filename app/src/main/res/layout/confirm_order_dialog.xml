@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="285dp"
+    android:layout_height="298dp"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_gravity="right" />
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_order"
+           android:layout_marginTop="40dp"/>
+       <TextView
+           style="@style/styleDialogTV"
+           android:text="Congrats"
+           android:textSize="32sp"
+           android:layout_marginTop="10dp"/>
+       <TextView
+           style="@style/styleDialogTV"
+           android:text="Your order is confirmed"
+           android:textSize="16sp"/>
+
+</LinearLayout>

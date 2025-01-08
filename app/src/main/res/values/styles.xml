@@ -98,7 +98,7 @@
         <item name="android:paddingBottom">10dp</item>
     </style>
     <style name="styleProductPriceTv">
-        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">20dp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/grey</item>
@@ -129,12 +129,33 @@
         <item name="fontFamily">@font/mukta_regular</item>
         <item name="android:layout_marginLeft">13dp</item>
     </style>
-    <!--    Contact Styles-->
+    <!--    About us Styles-->
     <style name="styleAboutUsTV">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/grey</item>
 
+    </style>
+    <!--    DialogBox Styles-->
+    <style name="styleDialogTV">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--    Cart Styles-->
+    <style name="styleCartCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">10dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+<!--    Detail style-->
+    <style name="styleDetailTV">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_grey</item>
     </style>
 </resources>
