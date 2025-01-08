@@ -10,6 +10,7 @@
 
     //Custom Colors
     <color name="yellow">#FCB814</color>
-    <color name="light">#A7A4A4</color>
+    <color name="light_grey">#A7A4A4</color>
     <color name="grey">#263238</color>
+    <color name="light">#F5F5F5</color>
 </resources>

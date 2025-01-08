@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="Raneem Alqubaysi"
+        android:textSize="16sp"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/mukta_bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="Information Technology"
+        android:fontFamily="@font/mukta_bold"/>
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="@string/text1"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="Ebtihal alnomsi  "
+        android:textSize="16sp"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/mukta_bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="Information Technology"
+        android:fontFamily="@font/mukta_bold"/>
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="@string/text2"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="Suha Alshahri"
+        android:textSize="16sp"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/mukta_bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="Information Technology"
+        android:fontFamily="@font/mukta_bold"/>
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="@string/text3"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="Noura Alghannam "
+        android:textSize="16sp"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/mukta_bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="Information Technology"
+        android:fontFamily="@font/mukta_bold"/>
+    <TextView
+        style="@style/styleAboutUsTV"
+        android:text="@string/text4"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="15dp"/>
+
+
+</LinearLayout>

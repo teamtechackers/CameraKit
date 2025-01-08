@@ -3,4 +3,9 @@
     <string name="on_board_text">Order your accessories</string>
     <string name="on_board_text_2">Capture life\'s precious moments with precision and\n clarity, using our expert-approved camera accessories</string>
     <string name="login_text">Login to continue using this app</string>
+    <string name="text1">I am an IT student at Imam Muhammad Bin Saud University. I have an interest in cybersecurity.
+    </string>
+    <string name="text2">I am an IT student at Imam Muhammad Bin Saud University. I have an interest in computer networking and network security</string>
+    <string name="text3">I am Suha Alshahri, an Information Technology student at Imam Muhammad bin Saud Islamic University, passionate about technology and innovative solutions.</string>
+    <string name="text4">I am an IT student at Imam Muhammad Bin Saud University. I have an interest in UI/UX</string>
 </resources>
