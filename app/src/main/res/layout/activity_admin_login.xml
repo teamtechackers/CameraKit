@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.LoginActivity"
+    tools:context=".activities.AdminLoginActivity"
     android:orientation="vertical"
     android:layout_marginHorizontal="20dp">
 
@@ -41,25 +41,18 @@
     </LinearLayout>
     <TextView
         style="@style/styleHeadingTV"
-        android:text="Login"
-        android:layout_marginTop="40dp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_text"
-        android:textColor="@color/light"
-        android:layout_marginTop="5dp"/>
+        android:text="Admin Login"
+        android:layout_marginTop="40dp" />
     <TextView
         style="@style/styleTV"
-        android:text="Email"
+        android:text="Username"
         android:layout_marginTop="30dp"/>
     <com.google.android.material.card.MaterialCardView
         style="@style/styleCardViewET"
         android:layout_marginTop="5dp">
         <EditText
             style="@style/styleETV"
-            android:hint="Enter your email"
+            android:hint="admin"
             android:inputType="textEmailAddress"
             android:layout_gravity="center_vertical"/>
     </com.google.android.material.card.MaterialCardView>
@@ -78,11 +71,10 @@
             android:layout_gravity="center">
             <EditText
                 style="@style/styleETV"
-                android:hint="Enter your password"
+                android:hint="Password"
                 android:inputType="textPassword"
                 android:layout_alignParentLeft="true"
-                android:layout_centerInParent="true"
-                />
+                android:layout_centerInParent="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -101,29 +93,5 @@
             android:text="Login"
             android:layout_gravity="center"/>
     </com.google.android.material.card.MaterialCardView>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="10dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Do not have any account?"
-            android:textColor="@color/light"
-            android:textSize="12sp"
-            android:fontFamily="@font/mukta_semi_bold"
-            />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:textSize="12sp"
-            android:text="Sign-up"
-            android:textColor="@color/black"
-            android:fontFamily="@font/mukta_semi_bold"
-            android:paddingLeft="5dp"/>
-    </LinearLayout>
 
 </LinearLayout>

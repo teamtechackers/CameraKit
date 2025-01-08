@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.LoginActivity"
+    tools:context=".activities.SignUpActivity"
     android:orientation="vertical"
     android:layout_marginHorizontal="20dp">
 
@@ -70,8 +70,8 @@
                 style="@style/styleETV"
                 android:hint="Enter your password"
                 android:inputType="textPassword"
-                android:layout_gravity="center_vertical"
-                android:layout_alignParentLeft="true"/>
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -98,8 +98,8 @@
                 style="@style/styleETV"
                 android:hint="Enter your password"
                 android:inputType="textPassword"
-                android:layout_gravity="center_vertical"
-                android:layout_alignParentLeft="true"/>
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
